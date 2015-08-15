@@ -48,3 +48,7 @@ group :test do
   gem 'mini_backtrace'
   gem 'guard-minitest'
 end
+group :development do
+  gem 'guard' # NOTE: this is necessary in newer versions
+  gem 'guard-minitest'
+end
